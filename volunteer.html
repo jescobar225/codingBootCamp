@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Onyx</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&family=PT+Sans+Narrow&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">    
+    </head>    
+    <body>
+        <header>
+            <div class="navdiv">
+                <div id="onyxbutton"><a href="index.html">Onyx</a></div>
+                <nav class="modifiednav">
+                    <ul>                    
+                        <li><a href="adoption.html">Adoption Partners</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>    
+            <h2> Volunteer with Us </h2>
+        </header>    
+        <main>
+            <p id="volunteerintro">Volunteering your time and hanging out with some awesome animals is a very rewarding experience. Also, this is a great opportunity to meet some of the animals that are available for adoption. If you are thinking of adopting a pet or simply want to spend the day with some four-legged pals, you've come to the right page! Please fill out the form below and we will send your information to our partner or partners that we believe would be the best fit for you.</p>
+            <br>
+            <div class="contentblock">
+                <div id="volunteerlabel">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label>        
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone"><br>
+                    <label for="email">Email Address:</label>        
+                    <input type="text" id="email" name="email"><br>
+                    <label for="preference">Animal Preference:</label>
+                        <select id="preference" name=“preference">
+                            <option> </option>
+                            <option value="cats">Cats</option>
+                            <option value="dogs">Dogs</option>
+                            <option value="any">Any</option>
+                        </select><br>
+                    <label for="experience">Experience:</label>        
+                        <select id="experience" name=“experience">
+                            <option> </option>
+                            <option value="none">None</option>
+                            <option value="6months">0-6 months</option>
+                            <option value="6moToYear">6 months to a year</option>
+                            <option value="moreThanYear">1 year or more</option>
+                            <option value="moreThan5Years">5 years or more</option>
+                        </select><br>
+                    <button onclick='showConfirm()'>Submit</button>    
+                </div>
+                <div id="volImgCred">
+                    <p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/65535/48658417166_05eab33d25_b.jpg" alt="Picture of dog taken at nflk pet care center (61 of 106)." width="100%"><a href="https://www.flickr.com/photos/22615828@N06/48658417166">"nflk pet care center (61 of 106)"</a><span> by <a href="https://www.flickr.com/photos/22615828@N06">f2 photografia</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nd/2.0/?ref=openverse&atype=html" style="margin-right: 5px;">CC BY-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nd/2.0/?ref=openverse&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=64a908fd-c1d7-4729-a6e8-4392ef502ec6" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p>          
+                </div>
+            </div>
+        </main>    
+    <script src="script.js"></script>
+    </body>
+</html>
+    

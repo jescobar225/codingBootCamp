@@ -1,0 +1,227 @@
+h1 {
+    text-align:center;
+    color: #D6AD60;
+    font-size: 90px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 a {
+    color:#D6AD60;
+    text-decoration: none;
+}
+
+h1 a:visited {
+    text-decoration: none;
+    color:#D6AD60;
+}
+
+h2 {
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    margin: 0 15%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#landingVideo {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border: solid 3px #D6AD60;
+    display: block;
+    margin: auto;
+}
+
+.landingInfo{
+    margin: 30px 15%;
+    align-items: center;
+}
+
+#onyxsun {
+    float: right;
+    margin-right: 10%;
+    border: solid 3px #D6AD60;
+}
+
+#aboutonyx {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#onyxbutton {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+    width: 10%;
+    background-color: #D6AD60;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#onyxbutton a, a:visited {
+    color: #122620;
+    text-decoration: none;
+}    
+    
+
+.navdiv {
+    display: block;
+    width: 100%;
+    background-color: #D6AD60;
+}
+
+.modifiednav ul {
+    margin-top: 0;    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 0%;
+    font-family: 'Quicksand', sans-serif;    
+    padding-right: 15px;
+    width: 40%;
+}
+
+.modifiednav li {
+    height: 20px;
+    text-align: justified;
+    padding: 10px 0px 10px 0px;
+    color: #122620;
+    font-size: 29px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*
+nav {
+     
+}
+*/
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    background-color: #D6AD60;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #122620;
+}
+
+nav li {
+    height: 20px;
+    text-align: justified;
+    padding: 10px 0px 10px 0px;
+    color: #122620;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #122620;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #122620;
+}
+
+body {
+    background-color: #F4EBD0;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.contentblock {
+    margin-top: 45px;   
+    font-family: 'Arimo', sans-serif;
+    background-color: #F4EBD0;
+    display: flex;
+    flex: row;
+    
+}
+
+#questionanswer {
+    width: 45%;
+}
+
+.question {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.answer {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px ;
+}
+
+#faqimgcred {
+    width: 40% ;
+    text-align: right;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+#volImgCred {
+    width: 40% ;
+    text-align: right;
+    margin-left: 5%;
+    padding-right: 10%;
+    padding-top: 0px;
+    margin-top:0%;
+}
+
+.adoptlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.adoptabout {
+    width: 70%;
+}
+
+.smallcontent {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px 10px;
+    background-color: white;
+    display: flex;
+    flex: row;
+    margin-bottom: 45px;
+}
+
+#smallcontentinfo {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px 10px;
+    margin-bottom: 45px;
+}
+
+#volunteerintro {
+    padding: 0% 10% 
+}
+
+#volunteerlabel {
+    padding-left: 15%;
+}
+
+
+main {
+    align-self: center;
+    background-color: #F4EBD0;
+    padding-right: 10%;
+    padding-left: 10%;
+}
